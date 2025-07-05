@@ -28,9 +28,11 @@ This project is a Point of Sale (POS) system designed to optimize retail operati
 3. Install the dependencies && 3rds parties:
     ```bash
     pip install pipenv
-    pipenv install Django
-    pipenv install openpyxl
-    pipenv install html2pdf
+    pipenv install django openpyxl html2pdf
+
+    --pipenv install Django
+    --pipenv install openpyxl
+    --pipenv install html2pdf
     ```
 
 ## Usage
@@ -47,7 +49,7 @@ This project is a Point of Sale (POS) system designed to optimize retail operati
     ```
 3. Run the application:
     ```bash
-    pipenv run python manage.py runserver
+    pipenv run python manage.py runserver 127.0.0.1:8001 --pipenv run python manage.py runserver
     ```
 4. Open your web browser and go to:
     ```
